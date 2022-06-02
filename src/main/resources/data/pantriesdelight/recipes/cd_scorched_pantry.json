@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "key": {
+    "_": {
+      "item": "cinderscapes:scorched_slab"
+    },
+    "D": {
+      "item": "cinderscapes:scorched_trapdoor"
+    }
+  },
+  "result": {
+    "item": "pantriesdelight:cd_scorched_pantry"
+  },
+  "frc:conditions": [
+    {
+      "recipeconditions:mod_loaded": "cinderscapes"
+    }
+  ]
+}

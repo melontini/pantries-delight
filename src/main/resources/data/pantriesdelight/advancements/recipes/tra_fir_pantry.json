@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_trapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "traverse:fir_trapdoor"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pantriesdelight:tra_fir_pantry"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_trapdoor",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pantriesdelight:tra_fir_pantry"
+    ]
+  },
+  "frc:conditions": [
+    {
+      "recipeconditions:mod_loaded": "traverse"
+    }
+  ]
+}

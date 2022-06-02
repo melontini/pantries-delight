@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_trapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "biomemakeover:willow_trapdoor"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pantriesdelight:bm_willow_pantry"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_trapdoor",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pantriesdelight:bm_willow_pantry"
+    ]
+  },
+  "frc:conditions": [
+    {
+      "recipeconditions:mod_loaded": "biomemakeover"
+    }
+  ]
+}

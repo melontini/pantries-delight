@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "key": {
+    "_": {
+      "item": "biomemakeover:blighted_balsa_slab"
+    },
+    "D": {
+      "item": "biomemakeover:blighted_balsa_trapdoor"
+    }
+  },
+  "result": {
+    "item": "pantriesdelight:bm_blighted_balsa_pantry"
+  },
+  "frc:conditions": [
+    {
+      "recipeconditions:mod_loaded": "biomemakeover"
+    }
+  ]
+}

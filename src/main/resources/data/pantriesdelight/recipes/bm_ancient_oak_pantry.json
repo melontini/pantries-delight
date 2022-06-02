@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "key": {
+    "_": {
+      "item": "biomemakeover:ancient_oak_slab"
+    },
+    "D": {
+      "item": "biomemakeover:ancient_oak_trapdoor"
+    }
+  },
+  "result": {
+    "item": "pantriesdelight:bm_ancient_oak_pantry"
+  },
+  "frc:conditions": [
+    {
+      "recipeconditions:mod_loaded": "biomemakeover"
+    }
+  ]
+}

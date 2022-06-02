@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "side": "pantriesdelight:block/bm_blighted_balsa_pantry_side",
+    "front": "pantriesdelight:block/bm_blighted_balsa_pantry_front_open",
+    "top": "pantriesdelight:block/bm_blighted_balsa_pantry_side"
+  }
+}

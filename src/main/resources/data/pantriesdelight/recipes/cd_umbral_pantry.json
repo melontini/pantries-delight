@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "key": {
+    "_": {
+      "item": "cinderscapes:umbral_slab"
+    },
+    "D": {
+      "item": "cinderscapes:umbral_trapdoor"
+    }
+  },
+  "result": {
+    "item": "pantriesdelight:cd_umbral_pantry"
+  },
+  "frc:conditions": [
+    {
+      "recipeconditions:mod_loaded": "cinderscapes"
+    }
+  ]
+}

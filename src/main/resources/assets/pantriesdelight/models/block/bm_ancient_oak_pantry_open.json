@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "side": "pantriesdelight:block/bm_ancient_oak_pantry_side",
+    "west": "pantriesdelight:block/bm_ancient_oak_pantry_side_2",
+    "south": "pantriesdelight:block/bm_ancient_oak_pantry_back",
+    "front": "pantriesdelight:block/bm_ancient_oak_pantry_front_open",
+    "top": "pantriesdelight:block/bm_ancient_oak_pantry_top"
+  }
+}

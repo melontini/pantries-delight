@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "pantries-delight",
+  "version": "${version}",
+  "name": "Pantries Delight",
+  "description": "More Pantries!",
+  "authors": [
+    "melontini"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/pantries-delight/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.melontini.pantriesdelight.client.PantriesDelightClient"
+    ],
+    "main": [
+      "me.melontini.pantriesdelight.PantriesDelight"
+    ]
+  },
+  "mixins": [
+    "pantries-delight.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.3",
+    "fabric": "*",
+    "farmersdelight": "*"
+  }
+}

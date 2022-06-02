@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "key": {
+    "_": {
+      "item": "traverse:fir_slab"
+    },
+    "D": {
+      "item": "traverse:fir_trapdoor"
+    }
+  },
+  "result": {
+    "item": "pantriesdelight:tra_fir_pantry"
+  },
+  "frc:conditions": [
+    {
+      "recipeconditions:mod_loaded": "traverse"
+    }
+  ]
+}

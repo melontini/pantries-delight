@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_trapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "biomemakeover:blighted_balsa_trapdoor"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pantriesdelight:bm_blighted_balsa_pantry"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_trapdoor",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pantriesdelight:bm_blighted_balsa_pantry"
+    ]
+  },
+  "frc:conditions": [
+    {
+      "recipeconditions:mod_loaded": "biomemakeover"
+    }
+  ]
+}

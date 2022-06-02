@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "key": {
+    "_": {
+      "item": "biomemakeover:willow_slab"
+    },
+    "D": {
+      "item": "biomemakeover:willow_trapdoor"
+    }
+  },
+  "result": {
+    "item": "pantriesdelight:bm_willow_pantry"
+  },
+  "frc:conditions": [
+    {
+      "recipeconditions:mod_loaded": "biomemakeover"
+    }
+  ]
+}

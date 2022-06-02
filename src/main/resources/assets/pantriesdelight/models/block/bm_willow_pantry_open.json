@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "side": "pantriesdelight:block/bm_willow_pantry_side",
+    "front": "pantriesdelight:block/bm_willow_pantry_front_open",
+    "top": "pantriesdelight:block/bm_willow_pantry_side"
+  }
+}

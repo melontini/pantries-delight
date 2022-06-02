@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "key": {
+    "_": {
+      "item": "biomemakeover:swamp_cypress_slab"
+    },
+    "D": {
+      "item": "biomemakeover:swamp_cypress_trapdoor"
+    }
+  },
+  "result": {
+    "item": "pantriesdelight:bm_cypress_pantry"
+  },
+  "frc:conditions": [
+    {
+      "recipeconditions:mod_loaded": "biomemakeover"
+    }
+  ]
+}
