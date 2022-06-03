@@ -6,7 +6,7 @@
       "conditions": {
         "items": [
           {
-            "item": "biomemakeover:ancient_oak_trapdoor"
+            "item": "blockus:bamboo_trapdoor"
           }
         ]
       }
@@ -14,7 +14,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "pantriesdelight:bm_ancient_oak_pantry"
+        "recipe": "pantriesdelight:blockus_bamboo_pantry"
       }
     }
   },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "pantriesdelight:bm_ancient_oak_pantry"
+      "pantriesdelight:blockus_bamboo_pantry"
     ]
   }
 }

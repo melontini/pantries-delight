@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "key": {
+    "_": {
+      "item": "blockus:white_oak_slab"
+    },
+    "D": {
+      "item": "blockus:white_oak_trapdoor"
+    }
+  },
+  "result": {
+    "item": "pantriesdelight:blockus_white_oak_pantry"
+  }
+}

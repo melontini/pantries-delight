@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "key": {
+    "_": {
+      "item": "blockus:bamboo_slab"
+    },
+    "D": {
+      "item": "blockus:bamboo_trapdoor"
+    }
+  },
+  "result": {
+    "item": "pantriesdelight:blockus_bamboo_pantry"
+  }
+}

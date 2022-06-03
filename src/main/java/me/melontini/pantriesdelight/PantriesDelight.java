@@ -20,6 +20,8 @@ public class PantriesDelight implements ModInitializer {
     public static final Block CD_SCORCHED_PANTRY = new PantryBlock(FabricBlockSettings.copyOf(Blocks.BARREL));
     public static final Block CD_UMBRAL_PANTRY = new PantryBlock(FabricBlockSettings.copyOf(Blocks.BARREL));
     public static final Block TRA_FIR_PANTRY = new PantryBlock(FabricBlockSettings.copyOf(Blocks.BARREL));
+    public static final Block BLOCKUS_BAMBOO_PANTRY = new PantryBlock(FabricBlockSettings.copyOf(Blocks.BARREL));
+    public static final Block BLOCKUS_WHITE_OAK_PANTRY = new PantryBlock(FabricBlockSettings.copyOf(Blocks.BARREL));
     @Override
     public void onInitialize() {
         if (FabricLoader.getInstance().isModLoaded("biomemakeover")) {
@@ -45,6 +47,13 @@ public class PantriesDelight implements ModInitializer {
         if (FabricLoader.getInstance().isModLoaded("traverse")) {
             Registry.register(Registry.BLOCK, new Identifier("pantriesdelight", "tra_fir_pantry"), TRA_FIR_PANTRY);
             Registry.register(Registry.ITEM, new Identifier("pantriesdelight", "tra_fir_pantry"), new BlockItem(TRA_FIR_PANTRY, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+        }
+        if (FabricLoader.getInstance().isModLoaded("blockus")) {
+            Registry.register(Registry.BLOCK, new Identifier("pantriesdelight", "blockus_bamboo_pantry"), BLOCKUS_BAMBOO_PANTRY);
+            Registry.register(Registry.BLOCK, new Identifier("pantriesdelight", "blockus_white_oak_pantry"), BLOCKUS_WHITE_OAK_PANTRY);
+            //items
+            Registry.register(Registry.ITEM, new Identifier("pantriesdelight", "blockus_bamboo_pantry"), new BlockItem(BLOCKUS_BAMBOO_PANTRY, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+            Registry.register(Registry.ITEM, new Identifier("pantriesdelight", "blockus_white_oak_pantry"), new BlockItem(BLOCKUS_WHITE_OAK_PANTRY, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
         }
     }
 }
